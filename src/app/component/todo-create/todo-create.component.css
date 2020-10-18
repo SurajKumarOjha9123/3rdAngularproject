@@ -1,0 +1,77 @@
+.todo_input{
+    background-color: rgba(128, 0, 128, 0.5);
+    margin:40;
+    padding:50px;
+    display:flex;
+    justify-content: space-evenly;
+}
+.todo_input p{
+    display:inline-block;
+    color:black;
+    padding-right: 40px;
+    margin: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 150%;
+}
+.todo_input input{
+    border-radius: 10px;
+    border:solid;
+    padding: 20px; 
+    outline: none;
+}
+.todo_input button{
+    outline: none;
+    height: 50px;
+    width: 160px;
+    border-radius: 10%;
+    border:none;
+    background-color: peru;
+    color:white;
+    cursor: pointer;
+}
+
+mat-toolbar{
+    justify-content: center;
+    font-size:50px;
+}
+ul {
+    list-style: none;
+}
+mat-card{
+    box-sizing: border-box;
+    background-color: rgba(210, 180, 140, 0.534);
+    margin:20px;
+    position:relative;
+    width:90%;
+}
+mat-card-title{
+    font-size:30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+mat-card button{
+    position:absolute;
+    right:10px;
+    top:5px;
+}
+
+.todo-table{
+    border-collapse: collapse;
+    margin:25px ;
+    font-size:20px;
+    width: 80%;
+}
+
+.todo-table thead tr{
+    background-color: #9800984d ;
+    color:#ffffff;
+    text-align:left;
+    font-weight:bold;
+}
+
+.todo-table th, .todo-table td{
+    padding:12px 15px;
+}
+
+.todo-table tbody tr{
+   border-bottom:1px solid #dddddd;
+}
